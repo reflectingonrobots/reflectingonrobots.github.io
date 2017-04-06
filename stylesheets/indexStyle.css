@@ -2,6 +2,44 @@ h1{
     text-align: center;
 }
 
-h2{
+h3{
     text-align: center;
+}
+
+#headerLinks{
+    width: 20%;
+    margin: auto;
+}
+
+header ul li{
+    display: inline;
+    list-style-type: none;
+    margin: 0px;
+}
+
+header li a{
+    color:white;
+    text-decoration: none;
+    margin: 0px;
+    padding: 5px 5px;
+    background-color: black;
+    border: 2px solid black;
+}
+
+header li a:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+#blurbs{
+    width: 100%;
+    overflow: hidden;
+}
+
+#blurbs section{
+    float: left;
+    width: 32%;
+    border: 2px solid gray;
+    padding: 5px;
 }
