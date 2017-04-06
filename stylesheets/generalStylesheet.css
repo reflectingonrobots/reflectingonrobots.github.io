@@ -27,10 +27,14 @@ nav ul li a{
     color: white;
     text-decoration: none;
     margin: 0px;
-    padding: 8px 0px;
+    padding: 8px 8px;
 }
 
 nav li a:hover{
     background-color: white;
     color: black;
+}
+
+h1{
+    text-align: center;
 }
