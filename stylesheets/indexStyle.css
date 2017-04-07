@@ -15,6 +15,10 @@ h3{
     top: 25%;
 }
 
+header ul{
+    margin:0;
+}
+
 header ul li{
     display: inline;
     list-style-type: none;
