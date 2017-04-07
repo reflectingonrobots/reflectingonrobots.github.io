@@ -67,3 +67,34 @@ header li a:hover{
     width: 33%;
     padding: 0px 15px;
 }
+
+#swLink{
+    text-decoration: none;
+    color: black;
+    float: left;
+}
+
+#studentWorkBanner{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding: 15px 0;
+    background-color:darkgrey;
+}
+
+#studentWorkBanner p{
+    clear: left;
+}
+
+#swBannerText{
+    float: left;
+    width: 30%;
+    padding: 0px 15px;
+}
+
+#studentWorkBanner img{
+    opacity: 1;
+    float: left;
+    width: 70%;
+    padding: 0px 15px;
+}
