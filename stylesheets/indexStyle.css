@@ -99,6 +99,10 @@ header li a:hover{
     padding: 0px 15px;
 }
 
+#swBannerText h1 a{
+    padding-bottom: 15px;
+}
+
 #studentWorkBanner img{
     opacity: 1;
     float: left;
