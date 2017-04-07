@@ -40,14 +40,30 @@ header li a:hover{
     border: 2px solid black;
 }
 
-#blurbs{
-    width: 100%;
-    overflow: hidden;
+.blurbLink{
+    text-decoration: none;
+    color: black;
 }
 
-#blurbs section{
+#blurbs{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+#expBlurb{
     float: left;
-    width: 32%;
-    border: 2px solid gray;
-    padding: 5px;
+    width: 33%;
+    padding: 0px 15px;
+}
+
+#refBlurb{
+    float: left;
+    width: 34%;
+    padding: 0px 15px;
+}
+
+#aboutBlurb{
+    float: left;
+    width: 33%;
+    padding: 0px 15px;
 }
