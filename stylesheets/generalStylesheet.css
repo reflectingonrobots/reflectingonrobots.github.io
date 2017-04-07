@@ -19,7 +19,7 @@ header{
     left: 0;
 }
 
-img{
+.bannerImage{
     width: 100%;
     opacity: 0.6;
     margin-bottom: 0;
