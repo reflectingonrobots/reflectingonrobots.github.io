@@ -10,7 +10,7 @@ p{
     
 }
 
-p{
+#emailLink{
     margin: auto;
     width: 100%;
 }
@@ -18,7 +18,7 @@ p{
 p a{
     color:white;
     text-decoration: none;
-    margin: 100px;
+    margin: 0px;
     padding: 5px 5px;
     background-color: black;
     border: 2px solid black;
