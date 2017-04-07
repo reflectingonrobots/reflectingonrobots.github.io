@@ -22,7 +22,7 @@ header{
 
 img{
     width: 100%;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 nav{
@@ -62,7 +62,6 @@ h1{
 }
 
 #content{
-    position: absolute;
-    top: 400px;
-    left: 0;
+    position: relative;
+    top: 40px;
 }
