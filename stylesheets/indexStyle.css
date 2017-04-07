@@ -98,3 +98,23 @@ header li a:hover{
     width: 70%;
     padding: 0px 15px;
 }
+
+#contactBlurb{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding: 15px 0;
+}
+
+#contactBlurb p{
+    width: auto;
+    float: right;
+}
+
+#contactBlurb img{
+    height: 1em;
+    width: auto;
+    opacity: 1;
+    float: right;
+    margin: 17px 5px;
+}
