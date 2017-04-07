@@ -40,13 +40,20 @@ header li a:hover{
     border: 2px solid black;
 }
 
+#content{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding: 15px 0;
+}
+
 .blurbLink{
     text-decoration: none;
     color: black;
 }
 
 #blurbs{
-    width: 90%;
+    width: 100%;
     margin: auto;
     overflow: hidden;
 }
@@ -75,7 +82,7 @@ header li a:hover{
 }
 
 #studentWorkBanner{
-    width: 90%;
+    width: 100%;
     margin: auto;
     overflow: hidden;
     padding: 15px 0;
@@ -97,13 +104,6 @@ header li a:hover{
     float: left;
     width: 70%;
     padding: 0px 15px;
-}
-
-#contactBlurb{
-    width: 90%;
-    margin: auto;
-    overflow: hidden;
-    padding: 15px 0;
 }
 
 #contactBlurb p{
