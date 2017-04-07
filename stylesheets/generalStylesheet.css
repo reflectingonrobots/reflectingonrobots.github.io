@@ -70,3 +70,7 @@ h1{
 #content p{
     padding-right: 10px;
 }
+
+p{
+    line-height: 150%;
+}
