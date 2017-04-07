@@ -6,11 +6,33 @@ body{
     margin:0px;
 }
 
+
+header{
+    position: relative;
+    top: 34px;
+    left: 0;
+}
+
+#headerText{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    left: 0;
+}
+
+img{
+    width: 100%;
+    opacity: 0.8;
+}
+
 nav{
     background-color: black;
     padding: 8px 0px;
     overflow: hidden;
     width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
 }
 
 nav ul{
@@ -37,4 +59,10 @@ nav li a:hover{
 
 h1{
     text-align: center;
+}
+
+#content{
+    position: absolute;
+    top: 400px;
+    left: 0;
 }
