@@ -40,94 +40,40 @@ This is a website that was created for the UPenn PRMT program as the culminating
                     <li><a href="references.html">References</a></li>
                 </ul>
             </div>
-            
-            <div class="content">
-            <!-- This section modified from: https://www.w3schools.com/howto/howto_js_slideshow.asp -->
-            <div class="slideshow-container">
+        <article>
+            <div id="text">
+                <h1>Reflections on Reflection</h1>
+                <p>"I think it's good to write down thoughts on paper because it will force me to really think about what I'm feeling and how I can improve"</p>
 
-            <div class="mySlides fade">
-              <img src="images/bannerDrawers.jpg" style="width:100%">
-              <div class="text">"I think it's good to wite down thoughts on paper because it will force me to really think about what I'm feeling and how I can improve"</div>
-            </div>
+                <p>"It is extremely hard to find time to reconsider or reflect so carving out class time for it is very useful"</p>
 
-            <div class="mySlides fade">
-              <img src="images/bannerDrawers.jpg" style="width:100%">
-              <div class="text">"It is extremely hard to find time to reconsider or reflect so carving out class time for it is very useful"</div>
-            </div>
-                
-            <div class="mySlides fade">
-              <img src="images/bannerDrawers.jpg" style="width:100%">
-              <div class="text">"Being able to identify feelings and thoughts is an important tool/skill to have and reflecting makes it easier to figure out what you need to focus on or if you need to change your outlook/perspective"</div>
-            </div>
-                
-            <div class="mySlides fade">
-              <img src="images/bannerDrawers.jpg" style="width:100%">
-              <div class="text">"I like reflecting as it helps me internalize and really keep the things that I learn in class"</div>
-            </div>
-            
-            <div class="mySlides fade">
-              <img src="images/bannerDrawers.jpg" style="width:100%">
-              <div class="text">"It's pretty awesome for me to be able to flip through the pages and see all of my past through processes in such detail... it's very refreshing to watch and have a record of how my mind shapes ideas"</div>
-            </div>
-                
-            <div class="mySlides fade">
-              <img src="images/bannerDrawers.jpg" style="width:100%">
-              <div class="text">"I appreciate being conscious about my learning"</div>
-            </div>
-                
-            <div class="mySlides fade">
-              <img src="images/bannerDrawers.jpg" style="width:100%">
-              <div class="text">"It allows students to reflect on their growth as robotics students and... [provides] a moment to be proud of everything you've learned"</div>
-            </div>
-                
-            <div class="mySlides fade">
-              <img src="images/bannerDrawers.jpg" style="width:100%">
-              <div class="text">"Reflecting on what you've done/learned seems to help you figure out and reinforce what you've learned"</div>
-            </div>
-            
-            <div class="mySlides fade">
-              <img src="images/bannerDrawers.jpg" style="width:100%">
-              <div class="text">"This hardware solution is better than software"</div>
-            </div>
+                <p>"Being able to identify feelings and thoughts is an important tool/skill to have and reflecting makes it easier to figure out what you need to focus on or if you need to change your outlook/perspective"</p>
 
-            </div>
-            <br>
+                <p>"I like reflecting as it helps me internalize and really keep the things that I learn in class"</p>
 
-            <div style="text-align:center">
-              <span class="dot"></span> 
-              <span class="dot"></span> 
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-            </div>
+                <p>"It's pretty awesome for me to be able to flip through the pages and see all of my past through processes in such detail... it's very refreshing to watch and have a record of how my mind shapes ideas"</p>
 
-            <script>
-            var slideIndex = 0;
-            showSlides();
+                <p>"I appreciate being conscious about my learning"</p>
 
-            function showSlides() {
-                var i;
-                var slides = document.getElementsByClassName("mySlides");
-                var dots = document.getElementsByClassName("dot");
-                for (i = 0; i < slides.length; i++) {
-                   slides[i].style.display = "none";  
-                }
-                slideIndex++;
-                if (slideIndex> slides.length) {slideIndex = 1}    
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                }
-                slides[slideIndex-1].style.display = "block";  
-                dots[slideIndex-1].className += " active";
-                setTimeout(showSlides, 5000); // Change image every 2 seconds
-            }
-            </script>
+
+                <p>"It allows students to reflect on their growth as robotics students and... [provides] a moment to be proud of everything you've learned"</p>
+
+                <p>"Reflecting on what you've done/learned seems to help you figure out and reinforce what you've learned"</p>
+
+                <p>"This hardware solution is better than software"</p>
+            </div> 
+            <div id="images">
+                <img src="images/linefollower.jpg" style="width:50%; float: left;">
+                <img src="images/sPCB.png" style="width:50%; float: left;">
+                <img src="images/sdiagram.png" style="width:50%; float: left;">
+                <img src="images/sBreadboard.jpg" style="width:50%; float: left;">
+                <img src="images/slinefollower2.jpg" style="width:50%; float: left;">
+                <img src="images/sbreadboard1.jpg" style="width:50%; float: left;">
+                <img src="images/sfancart.jpg" style="width:50%; float: left;"><img src="images/sPCBDiagram.png" style="width:50%; float: left;">
+                <img src="images/slinefollower3.jpg" style="width:50%; float: left;">
             </div>
-        </div> 
+        </article>
+        </div>
     </body>
     
 </html>

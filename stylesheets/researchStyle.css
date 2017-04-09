@@ -1,3 +1,9 @@
+#roomImage{
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+}
+
 #surveyImage{
                 display: block;
                 background-color: black;
