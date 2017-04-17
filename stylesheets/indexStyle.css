@@ -110,6 +110,45 @@ header li a:hover{
     padding: 0px 15px;
 }
 
+#cLink{
+    text-decoration: none;
+    color: black;
+    float: left;
+}
+
+#competenciesBanner{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 15px 0;
+}
+
+#competenciesBanner p{
+    clear: left;
+}
+
+#cBannerText{
+    float: left;
+    width: 30%;
+    padding: 0px 15px;
+}
+
+#cBannerText h1 a{
+    padding-bottom: 15px;
+}
+
+#competenciesBanner img{
+    opacity: 1;
+    float: left;
+    width: 70%;
+    padding: 0px 15px;
+}
+
+#contactBlurb{
+    float: left;
+    width: 100%;
+}
+
 #contactBlurb p{
     width: auto;
     float: right;
